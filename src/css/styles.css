@@ -77,4 +77,9 @@ transform: translateY(-33px);
     font-size: 0.75em;
     letter-spacing: 0.05em;
     transition: 0.5s;
+    opacity: 0;
+}
+
+.navigation ul li:hover a .text{
+opacity: 1;
 }
